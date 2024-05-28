@@ -1,14 +1,12 @@
 package Esercizi;
 
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class Esercizio1 {
     public static void main(String[] args) {
 
         Set<String> parole = new HashSet<>();
-        Set<String> paroleDuplicate = new HashSet<>();
+        List<String> paroleDuplicate = new ArrayList<>();
 
         Scanner sc = new Scanner(System.in);
         while (true) {
